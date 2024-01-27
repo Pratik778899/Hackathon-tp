@@ -1,19 +1,26 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
     <>
-      <div>
-        <div>
-          <h1>EduCate</h1>
+      <div className="flex justify-between items-center p-8 px-24">
+        <div className="text-3xl font-bold">
+          <Link to="/">
+            Edu<span className="text-blue-600">Cate</span>
+          </Link>
         </div>
-        <div>
-          <h3>Parent Awwareness</h3>
-          <h3>last session</h3>
+        <div className="flex gap-6 text-xl">
+          <Link to="/ParentAwareness">Parent Awareness</Link>
+          <Link to="/LastDay">LastDay</Link>
         </div>
-        <div>
-          <h1>login</h1>
-          <h1>signup</h1>
+        <div className="flex gap-6 text-2xl">
+          <Link to="/login" className=" hover:text-blue-500">
+            Login
+          </Link>
+          <Link to="/signup" className=" hover:text-blue-500">
+            Signup
+          </Link>
         </div>
       </div>
     </>
