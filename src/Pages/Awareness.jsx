@@ -31,7 +31,7 @@ const Awareness = () => {
           </div>
         </div>
         <div className="flex items-center">
-          <img className="w-full md:w-4/5 rounded-lg" src="https://eu-central.storage.cloudconvert.com/tasks/36be9368-2990-41c6-84cd-c05ce939999c/modern-3d-illustration-education-concept_145666-1739.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20240127%2Ffra%2Fs3%2Faws4_request&X-Amz-Date=20240127T084446Z&X-Amz-Expires=86400&X-Amz-Signature=3f94fe8113ee605db6a1c788d281ea44014c7ccd6afedca5517376d4dbe19d66&X-Amz-SignedHeaders=host&response-content-disposition=inline%3B%20filename%3D%22modern-3d-illustration-education-concept_145666-1739.jpg%22&response-content-type=image%2Fjpeg&x-id=GetObject" />
+          <img className="w-full md:w-4/5 rounded-lg" src="https://eu-central.storage.cloudconvert.com/tasks/36be9368-2990-41c6-84cd-c05ce939999c/modern-3d-illustration-education-concept_145666-1739.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20240127%2Ffra%2Fs3%2Faws4_request&X-Amz-Date=20240127T084446Z&X-Amz-Expires=86400&X-Amz-Signature=3f94fe8113ee605db6a1c788d281ea44014c7ccd6afedca5517376d4dbe19d66&X-Amz-SignedHeaders=host&response-content-disposition=inline%3B%20filename%3D%22modern-3d-illustration-education-concept_145666-1739.jpg%22&response-content-type=image%2Fjpeg&x-id=GetObject" alt="" />
         </div>
       </div>
       <div className="ml-4 md:ml-20">
