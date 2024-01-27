@@ -12,6 +12,32 @@ const Login = () => {
     setPassword(e.target.value);
   };
 
+  const handleLogin = async () => {
+    try {
+      const response = await fetch(
+        `http://192.168.0.230:3000/student?email=${email}&password=${password}`,
+        {
+          method: "GET",
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
+  
+      if (response.ok) {
+        console.log("Login successful");
+        // Add logic to handle successful login, e.g., redirect to another page.
+      } else {
+        console.error("Login failed");
+        // Add logic to handle failed login, e.g., display an error message.
+      }
+    } catch (error) {
+      console.error("Error during login:", error);
+      // Handle other errors that may occur during the fetch.
+    }
+  };
+  
+
   return (
     <>
       <div class="bg-gray-100 p-8 w-96 mx-auto rounded-lg shadow-lg">
@@ -36,6 +62,7 @@ const Login = () => {
           value={password}
           onChange={handlePasswordChange}
         />
+        <button onClick={handleLogin}>Submit</button>
       </div>
     </>
   );
